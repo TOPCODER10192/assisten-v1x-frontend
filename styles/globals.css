@@ -1,0 +1,213 @@
+#__next {
+  font-family: Avenir;
+}
+
+.ant-input-search > .ant-input-group > .ant-input-group-addon:last-child .ant-input-search-button {
+  border-left: 0px !important;
+  border-top-right-radius: 6px !important;
+  border-bottom-right-radius: 6px !important;
+}
+
+.ant-input {
+  border-radius: 6px !important;
+  border-top-left-radius: 6px !important;
+  border-bottom-left-radius: 6px !important;
+  padding-left: 20px !important;
+}
+
+.ant-input-password {
+  border-radius: 6px !important;
+}
+
+.ant-input-password .ant-input {
+  padding-left: 10px !important;
+}
+
+.ant-input-search .ant-input {
+  border-top-right-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
+}
+
+.ant-input-group-wrapper.border-none .ant-input-search-button, .ant-input-group-wrapper.border-none .ant-input {
+  border-width: 0px !important;
+  height: 40px;
+}
+
+.ant-input-group-wrapper.search .ant-input-search-button, .ant-input-group-wrapper.search .ant-input {
+  font-size: 18px;
+  font-weight: bold;
+  height: 50px;
+}
+
+.ant-input-group-addon {
+  background-color: transparent !important;
+}
+
+.ant-select-selector {
+  border-radius: 6px !important
+}
+
+.ant-btn.ant-dropdown-trigger.custom {
+  border-radius: 6px !important;
+  display: flex;
+  align-items: center;
+}
+
+.ant-btn.ant-dropdown-trigger .text {
+  flex: 1
+}
+
+.ant-picker-large {
+  border-radius: 6px !important;
+}
+
+.photo-uploader > .ant-upload.ant-upload-select-picture-card {
+  width: 100% !important;
+}
+
+/* @media (max-width: 760px) {
+  .ant-col {
+    width: 100%;
+    margin-right: 10px !important
+  }
+  .ant-col .ant-input, .ant-col .ant-select, .ant-col button {
+    width: 100%;
+    margin-right: 10px !important
+  }
+} */
+
+@media (max-width: 480px) {
+  .ant-col {
+    width: 100%;
+    margin-right: 0px !important
+  }
+
+  .ant-layout-sider {
+    position: absolute !important;
+    background: white !important;
+    height: 100vh !important;
+    z-index: 3 !important;
+    width: 90% !important;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+  }
+
+  .ant-layout-sider-children {
+    overflow-y: auto;
+    height: 100vh;
+  }
+
+  .ant-layout-sider-zero-width-trigger {
+    background: #3785B5 !important
+  }
+
+  .ant-layout-sider-zero-width-trigger svg {
+    color: white !important
+  }
+
+}
+
+.ant-btn-primary {
+  background: #3785B5 !important;
+  border-color: #3785B5 !important
+}
+
+.ant-input:focus {
+  -webkit-box-shadow: 0 0 0 10px rgba(40, 72, 229, 0.5);
+  box-shadow: 0 0 0 5px rgba(54, 133, 181, 0.2) !important;
+}
+
+.ant-select-selector {
+  height: 32px;
+  overflow: auto;
+}
+
+.ant-checkbox-wrapper {
+  flex-direction: row-reverse !important;
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+}
+
+.ant-affix {
+  z-index: 10 !important;
+}
+
+.editor .ant-collapse-header {
+  font-size: 16px !important;
+}
+
+.editor .ant-form-item-label {
+  margin-bottom: 0px !important;
+  padding-bottom: 0px !important;
+}
+
+.editor .ant-form-item-label label {
+  font-style: italic;
+  color: #777
+}
+
+
+.stat-card {
+  border-width: 0;
+  position: relative;
+  background-color: white;
+  border-radius: 6;
+  padding: 24px 20px;
+  border-radius: 10px;
+  box-shadow: 0px 3px 8px #e0e0e0;
+  min-height: 100px;
+  margin-bottom: 20px
+}
+
+.stat-card.no-shadow {
+  box-shadow: 0px 0px transparent !important;
+  padding: 0px 20px;
+}
+
+.stat-card .chart {
+  margin-left: 50px;
+  position: absolute;
+  width: 200px;
+  bottom: 0px;
+  right: 20px;
+  height: 100px;
+  max-width: 60%
+}
+
+.stat-card h1 {
+  margin: 0px !important;
+}
+
+.card {
+  background-color: white;
+  border-width: 0;
+  border-radius: 6;
+  padding: 24px 20px;
+  border-radius: 10px;
+  box-shadow: 0px 3px 8px #e0e0e0;
+  margin-bottom: 20
+}
+
+.slick-prev, .slick-next {
+  width: 50px !important;
+  height: 50px !important;
+  border-radius: 25px;
+  top: 45% !important;
+  background: #eee !important;
+}
+
+.slick-next {
+  right: -55px !important;
+}
+
+.slick-prev {
+  left: -55px !important;
+}
+
+.slick-slide {
+  transition: 200ms all ease;
+}
+
+.slick-active div {
+  transform: scale(1.1);
+}

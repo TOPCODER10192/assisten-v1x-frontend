@@ -1,0 +1,75 @@
+.tour {
+  width: 360px;
+  max-width: 360px;
+  border-radius: 6px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+  z-index: 1000
+}
+
+@media (max-width: 480px) {
+  .tour {
+    width: 100%
+  }
+}
+
+.formItem {
+  margin-bottom: 10px !important
+}
+
+.contactForm input {
+  padding-left: 10px !important
+}
+
+.tourButton {
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 6px;
+  border-width: 0px;
+  background-color: #3685B5;
+}
+
+
+.agent {
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+  background-position: top right;
+  border-radius: 50px;
+}
+
+.call {
+  padding-left: 20px
+}
+
+.phoneTitle {
+  font-size: 20px !important;
+  margin-bottom: 0px;
+}
+
+.phone {
+  font-size: 26px !important;
+  margin-bottom: 0px;
+}
+
+.card h3 {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 28px;
+  margin: 0px !important;
+}
+
+.card h2 {
+  font-size: 34px;
+  margin: 0px !important;
+}
+
+.schedTitle {
+  text-align: center;
+  font-size: 18px !important;
+  font-weight: 500 !important
+}
+
+.cost {
+  font-weight: 700 !important
+}

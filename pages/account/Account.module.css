@@ -1,0 +1,55 @@
+.cardProperty {
+  min-height: 200px;
+  border-radius: 10px;
+  transition: all 400ms ease !important;
+  cursor: pointer !important;
+  position: relative;
+}
+
+
+
+.card {
+  cursor: pointer !important;
+  background-color: #fff !important;
+  transition: all 400ms ease !important;
+  min-height: 200px;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.cardOverlay {
+  background-color: rgba(0,0,0,0.4);
+  position: absolute;
+  border-radius: 10px;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 2;
+}
+
+.cardContent {
+  position: absolute;
+  z-index: 3
+}
+
+.cardTitle {
+  color: #fff !important;
+  margin-top: 20px;
+  margin-bottom: 0px !important;
+}
+
+.cardText {
+  color: #fff !important;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0px !important;
+  margin-bottom: 30px !important
+}
+
+.card:hover, .cardProperty:hover {
+  background-color: #eee !important;
+}

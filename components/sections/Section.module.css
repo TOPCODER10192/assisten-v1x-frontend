@@ -1,0 +1,16 @@
+.contactbar {
+  padding: 50px 0px;
+  text-align: center;
+}
+
+.contactSearch {
+  max-width: 600px;
+  margin: 0px auto;
+  margin-bottom: 30px;
+}
+
+.contactText {
+  max-width: 800px;
+  margin: 0px auto;
+  font-size: 12px
+}

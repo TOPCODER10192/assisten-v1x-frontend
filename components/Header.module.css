@@ -1,0 +1,43 @@
+.header {
+  top: 0px;
+  z-index: 2;
+  position: fixed;
+  width: 100%;
+  padding: 10px 0px;
+  background-color: #fff;
+}
+
+.inner {
+  max-width: 1024px;
+  margin: 0px auto;
+}
+
+.headerAlt {
+  z-index: 1000;
+  position: absolute;
+  width: 100%;
+  background-color: transparent;
+}
+
+.logo {
+  width: 160px;
+  height: 40px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.headerAlt .inner {
+  padding: 20px 0px
+}
+
+.innerfull {
+  margin: 0px 20px;
+}
+
+@media (max-width: 480px) {
+  .inner {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}

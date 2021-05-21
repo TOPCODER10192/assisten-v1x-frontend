@@ -1,0 +1,573 @@
+{
+  "status": true,
+  "where": {
+    "$or": [
+      {
+        "name": {}
+      },
+      {
+        "heading": {}
+      },
+      {
+        "description": {}
+      },
+      {
+        "location": {}
+      }
+    ]
+  },
+  "coords": {},
+  "zipCode": false,
+  "properties": [
+    {
+      "point": {
+        "type": "Point",
+        "coordinates": [
+          -121.077583,
+          39.213076
+        ]
+      },
+      "slug": "bins-cassin-and-reichel",
+      "heading": "Enim id sint et porro officia voluptates autem.",
+      "phone": "223-323-9256",
+      "email": "charley_donnelly@hotmail.com",
+      "description": "Omnis quod sunt et reprehenderit exercitationem debitis. Omnis molestiae aliquid sint. Qui quam aut. Harum porro et. Ea praesentium ut rerum. Molestiae consectetur sunt qui.",
+      "atHomeCare": false,
+      "primaryPhoto": "",
+      "cost": 14,
+      "recur": "monthly",
+      "featPhoto": "https://source.unsplash.com/category/buildings/640x480",
+      "photos": [
+        "https://source.unsplash.com/category/buildings/640x480",
+        "https://source.unsplash.com/category/buildings/640x480",
+        "https://source.unsplash.com/category/buildings/640x480"
+      ],
+      "typesOfCare": [
+        "behavioral",
+        "inhome"
+      ],
+      "roomTypes": [
+        "shared",
+        "private"
+      ],
+      "amenities": [
+        "wifi",
+        "fitness-center",
+        "library",
+        "aircon"
+      ],
+      "tags": [
+        "dressing",
+        "dementia",
+        "incontinence",
+        "walker"
+      ],
+      "location": "560 Penstock Drive Grass Valley CA 95945",
+      "users": [],
+      "residents": [],
+      "views": 0,
+      "stays": 0,
+      "_id": "5fcee336071f9b002383c304",
+      "name": "Bins, Cassin and Reichel",
+      "testimonials": [],
+      "__v": 0,
+      "created_at": "2020-12-08T02:21:44.564Z",
+      "updated_at": "2020-12-08T02:21:44.564Z"
+    },
+    {
+      "point": {
+        "type": "Point",
+        "coordinates": [
+          -112.201658,
+          33.676018
+        ]
+      },
+      "slug": "cartwright-group",
+      "heading": "Ut cupiditate tempora animi eum corporis fugiat quo.",
+      "phone": "1-359-423-5710",
+      "email": "aditya_blanda@hotmail.com",
+      "description": "Dolore modi quam praesentium alias necessitatibus dolor. Odio et cum facilis eaque. Sunt in dignissimos culpa et eligendi.",
+      "atHomeCare": false,
+      "primaryPhoto": "",
+      "cost": 480,
+      "recur": "monthly",
+      "featPhoto": "https://source.unsplash.com/category/buildings/640x480",
+      "photos": [
+        "https://source.unsplash.com/category/buildings/640x480",
+        "https://source.unsplash.com/category/buildings/640x480",
+        "https://source.unsplash.com/category/buildings/640x480"
+      ],
+      "typesOfCare": [
+        "memory",
+        "inhome"
+      ],
+      "roomTypes": [
+        "shared",
+        "studio"
+      ],
+      "amenities": [
+        "salon",
+        "fitness-center",
+        "pool",
+        "library"
+      ],
+      "tags": [
+        "walker",
+        "grooming",
+        "emergency",
+        "bathing"
+      ],
+      "location": "6657 West Rose Garden Lane Glendale AZ 85308",
+      "users": [],
+      "residents": [],
+      "views": 0,
+      "stays": 0,
+      "_id": "5fcee336071f9b002383c308",
+      "name": "Cartwright Group",
+      "testimonials": [],
+      "__v": 0,
+      "created_at": "2020-12-08T02:21:44.565Z",
+      "updated_at": "2020-12-08T02:21:44.565Z"
+    },
+    {
+      "point": {
+        "type": "Point",
+        "coordinates": [
+          -76.979235,
+          38.867033
+        ]
+      },
+      "slug": "shields-mohr",
+      "heading": "Perspiciatis cum qui.",
+      "phone": "(729) 630-9819 x582",
+      "email": "austyn_maggio11@gmail.com",
+      "description": "Impedit consequatur suscipit et totam. Voluptatem at qui libero possimus esse nulla dolorum dolorum delectus. Dolor nemo ut autem et.",
+      "atHomeCare": false,
+      "primaryPhoto": "",
+      "cost": 901,
+      "recur": "monthly",
+      "featPhoto": "https://source.unsplash.com/category/buildings/640x480",
+      "photos": [
+        "https://source.unsplash.com/category/buildings/640x480",
+        "https://source.unsplash.com/category/buildings/640x480",
+        "https://source.unsplash.com/category/buildings/640x480"
+      ],
+      "typesOfCare": [
+        "behavioral",
+        "inhome"
+      ],
+      "roomTypes": [
+        "studio",
+        "private"
+      ],
+      "amenities": [
+        "library",
+        "aircon",
+        "cabletv",
+        "pool"
+      ],
+      "tags": [
+        "emergency",
+        "incontinence",
+        "medication",
+        "cane"
+      ],
+      "location": "1745 T Street Southeast Washington DC 20020",
+      "users": [],
+      "residents": [],
+      "views": 0,
+      "stays": 0,
+      "_id": "5fcee336071f9b002383c307",
+      "name": "Shields - Mohr",
+      "testimonials": [],
+      "__v": 0,
+      "created_at": "2020-12-08T02:21:44.565Z",
+      "updated_at": "2020-12-08T02:21:44.565Z"
+    },
+    {
+      "point": {
+        "type": "Point",
+        "coordinates": [
+          -105.106056,
+          39.794498
+        ]
+      },
+      "slug": "white-inc",
+      "heading": "Dicta perferendis veritatis quo eius sint officiis.",
+      "phone": "(273) 658-7882",
+      "email": "britney20@gmail.com",
+      "description": "Quo quod consequatur iste harum sit enim. Tempore nemo quos vero necessitatibus iusto eligendi repudiandae error. Repudiandae similique sint voluptatibus molestiae ratione facilis quasi. Sed tempore vero autem voluptatem quia. Quia nesciunt doloremque.",
+      "atHomeCare": false,
+      "primaryPhoto": "",
+      "cost": 535,
+      "recur": "monthly",
+      "featPhoto": "https://source.unsplash.com/category/buildings/640x480",
+      "photos": [
+        "https://source.unsplash.com/category/buildings/640x480",
+        "https://source.unsplash.com/category/buildings/640x480",
+        "https://source.unsplash.com/category/buildings/640x480"
+      ],
+      "typesOfCare": [
+        "inhome",
+        "behavioral"
+      ],
+      "roomTypes": [
+        "private",
+        "shared"
+      ],
+      "amenities": [
+        "pool",
+        "library",
+        "wifi",
+        "restaurant"
+      ],
+      "tags": [
+        "dementia",
+        "emergency",
+        "cane",
+        "walker"
+      ],
+      "location": "5385 Iris Street Arvada CO 80002",
+      "users": [],
+      "residents": [],
+      "views": 0,
+      "stays": 0,
+      "_id": "5fcee336071f9b002383c306",
+      "name": "White Inc",
+      "testimonials": [],
+      "__v": 0,
+      "created_at": "2020-12-08T02:21:44.565Z",
+      "updated_at": "2020-12-08T02:21:44.565Z"
+    },
+    {
+      "point": {
+        "type": "Point",
+        "coordinates": [
+          -71.157721,
+          42.759847
+        ]
+      },
+      "slug": "gaylord-gusikowski-and-kovacek",
+      "heading": "Perferendis ea laborum sint quam qui.",
+      "phone": "876.608.5457",
+      "email": "nola_bernhard43@hotmail.com",
+      "description": "Facere sunt ullam qui ipsa similique illo ut quisquam. Et dolorum ea omnis dolore sint. Est at iure tempore ut quia beatae enim molestiae. Voluptatum sit fugiat sint. Ullam beatae unde id quae eum et iusto. Doloribus corporis vitae fugit maxime aut.",
+      "atHomeCare": false,
+      "primaryPhoto": "",
+      "cost": 993,
+      "recur": "monthly",
+      "featPhoto": "https://source.unsplash.com/category/buildings/640x480",
+      "photos": [
+        "https://source.unsplash.com/category/buildings/640x480",
+        "https://source.unsplash.com/category/buildings/640x480",
+        "https://source.unsplash.com/category/buildings/640x480"
+      ],
+      "typesOfCare": [
+        "inhome",
+        "assisted"
+      ],
+      "roomTypes": [
+        "private",
+        "shared"
+      ],
+      "amenities": [
+        "cabletv",
+        "salon",
+        "library"
+      ],
+      "tags": [
+        "wheelchair",
+        "dementia",
+        "medication",
+        "dressing"
+      ],
+      "location": "23 Sable Run Lane Methuen MA 01844",
+      "users": [],
+      "residents": [],
+      "views": 0,
+      "stays": 0,
+      "_id": "5fcee336071f9b002383c305",
+      "name": "Gaylord, Gusikowski and Kovacek",
+      "testimonials": [],
+      "__v": 0,
+      "created_at": "2020-12-08T02:21:44.565Z",
+      "updated_at": "2020-12-08T02:21:44.565Z"
+    },
+    {
+      "point": {
+        "type": "Point",
+        "coordinates": [
+          -81.07297989999999,
+          31.9138389
+        ]
+      },
+      "slug": "mayert-kutch",
+      "heading": "Eaque ab inventore reiciendis eos ad.",
+      "phone": "1-588-293-2755 x675",
+      "email": "althea.schaden5@gmail.com",
+      "description": "Cum quod natus voluptatibus optio optio quasi voluptatem id. Qui repellendus quisquam voluptas rem omnis error debitis voluptas quam. Saepe ipsam minima ullam. Qui eum sit quibusdam omnis unde cumque et qui. Laudantium quia ut veritatis qui nulla unde sequi deleniti praesentium. Magni vel voluptatem suscipit alias et.",
+      "atHomeCare": false,
+      "primaryPhoto": "",
+      "cost": 5,
+      "recur": "monthly",
+      "featPhoto": "https://source.unsplash.com/category/buildings/640x480",
+      "photos": [
+        "https://source.unsplash.com/category/buildings/640x480",
+        "https://source.unsplash.com/category/buildings/640x480",
+        "https://source.unsplash.com/category/buildings/640x480"
+      ],
+      "typesOfCare": [
+        "inhome",
+        "independent"
+      ],
+      "roomTypes": [
+        "studio",
+        "private"
+      ],
+      "amenities": [
+        "library",
+        "pool",
+        "cabletv",
+        "salon"
+      ],
+      "tags": [
+        "medication",
+        "wheelchair",
+        "cane",
+        "bathing"
+      ],
+      "location": "2 Ambelwood Way Savannah GA 31411",
+      "users": [],
+      "residents": [],
+      "views": 0,
+      "stays": 0,
+      "_id": "5fcee336071f9b002383c30a",
+      "name": "Mayert - Kutch",
+      "testimonials": [],
+      "__v": 0,
+      "created_at": "2020-12-08T02:21:44.566Z",
+      "updated_at": "2020-12-08T02:21:44.566Z"
+    },
+    {
+      "point": {
+        "type": "Point",
+        "coordinates": [
+          -76.660653,
+          39.019306
+        ]
+      },
+      "slug": "abbott-rippin-and-blanda",
+      "heading": "Itaque odio et ex et sunt culpa eius.",
+      "phone": "492-508-3458",
+      "email": "donnell.hyatt@gmail.com",
+      "description": "Voluptatem veniam expedita doloribus delectus voluptates est quas. Fugiat asperiores esse porro et laboriosam ipsa.",
+      "atHomeCare": false,
+      "primaryPhoto": "",
+      "cost": 143,
+      "recur": "monthly",
+      "featPhoto": "https://source.unsplash.com/category/buildings/640x480",
+      "photos": [
+        "https://source.unsplash.com/category/buildings/640x480",
+        "https://source.unsplash.com/category/buildings/640x480",
+        "https://source.unsplash.com/category/buildings/640x480"
+      ],
+      "typesOfCare": [
+        "inhome",
+        "assisted"
+      ],
+      "roomTypes": [
+        "shared",
+        "studio"
+      ],
+      "amenities": [
+        "laundry",
+        "salon",
+        "restaurant"
+      ],
+      "tags": [
+        "bathing",
+        "dressing",
+        "medication",
+        "cane"
+      ],
+      "location": "1407 Walden Court Crofton MD 21114",
+      "users": [],
+      "residents": [],
+      "views": 0,
+      "stays": 0,
+      "_id": "5fcee336071f9b002383c30b",
+      "name": "Abbott, Rippin and Blanda",
+      "testimonials": [],
+      "__v": 0,
+      "created_at": "2020-12-08T02:21:44.566Z",
+      "updated_at": "2020-12-08T02:21:44.566Z"
+    },
+    {
+      "point": {
+        "type": "Point",
+        "coordinates": [
+          -105.1283237,
+          39.8133443
+        ]
+      },
+      "slug": "kirlin-stracke",
+      "heading": "Alias maxime aut.",
+      "phone": "237.899.8914",
+      "email": "ned_padberg@gmail.com",
+      "description": "Deleniti neque ad. Earum omnis reiciendis. Perferendis similique rerum minus repellat earum maiores. Laboriosam dolores eos et qui. Et qui et quis explicabo.",
+      "atHomeCare": false,
+      "primaryPhoto": "",
+      "cost": 231,
+      "recur": "monthly",
+      "featPhoto": "https://source.unsplash.com/category/buildings/640x480",
+      "photos": [
+        "https://source.unsplash.com/category/buildings/640x480",
+        "https://source.unsplash.com/category/buildings/640x480",
+        "https://source.unsplash.com/category/buildings/640x480"
+      ],
+      "typesOfCare": [
+        "memory",
+        "inhome"
+      ],
+      "roomTypes": [
+        "shared",
+        "studio"
+      ],
+      "amenities": [
+        "wifi",
+        "library",
+        "aircon"
+      ],
+      "tags": [
+        "emergency",
+        "medication",
+        "bathing",
+        "dementia"
+      ],
+      "location": "6424 Simms Street Arvada CO 80004",
+      "users": [],
+      "residents": [],
+      "views": 0,
+      "stays": 0,
+      "_id": "5fcee336071f9b002383c30d",
+      "name": "Kirlin - Stracke",
+      "testimonials": [],
+      "__v": 0,
+      "created_at": "2020-12-08T02:21:44.566Z",
+      "updated_at": "2020-12-08T02:21:44.566Z"
+    },
+    {
+      "point": {
+        "type": "Point",
+        "coordinates": [
+          -105.084446,
+          39.806211
+        ]
+      },
+      "slug": "schmidt-wintheiser",
+      "heading": "Et adipisci provident nihil qui perferendis sint est distinctio.",
+      "phone": "1-975-797-4373 x822",
+      "email": "nichole20@gmail.com",
+      "description": "Quis perferendis sunt autem aut pariatur quisquam quo qui. In reiciendis qui excepturi tempora eum aut cumque velit. Occaecati deserunt ut culpa pariatur fugit velit eos voluptas totam. Fuga asperiores impedit laboriosam et. Ut et fugiat sint nulla fugiat consequatur quos.",
+      "atHomeCare": false,
+      "primaryPhoto": "",
+      "cost": 596,
+      "recur": "monthly",
+      "featPhoto": "https://source.unsplash.com/category/buildings/640x480",
+      "photos": [
+        "https://source.unsplash.com/category/buildings/640x480",
+        "https://source.unsplash.com/category/buildings/640x480",
+        "https://source.unsplash.com/category/buildings/640x480"
+      ],
+      "typesOfCare": [
+        "memory",
+        "behavioral"
+      ],
+      "roomTypes": [
+        "private",
+        "shared"
+      ],
+      "amenities": [
+        "aircon",
+        "pool",
+        "laundry",
+        "restaurant"
+      ],
+      "tags": [
+        "bathing",
+        "walker",
+        "cane",
+        "incontinence"
+      ],
+      "location": "6007 Yarrow Street Arvada CO 80004",
+      "users": [],
+      "residents": [],
+      "views": 0,
+      "stays": 0,
+      "_id": "5fcee336071f9b002383c30c",
+      "name": "Schmidt - Wintheiser",
+      "testimonials": [],
+      "__v": 0,
+      "created_at": "2020-12-08T02:21:44.566Z",
+      "updated_at": "2020-12-08T02:21:44.566Z"
+    },
+    {
+      "point": {
+        "type": "Point",
+        "coordinates": [
+          -86.60113799999999,
+          36.076186
+        ]
+      },
+      "slug": "rohan-crist",
+      "heading": "Voluptatum quae facere ea velit.",
+      "phone": "1-647-877-6049 x6730",
+      "email": "jodie66@gmail.com",
+      "description": "Alias voluptatibus esse harum eum ut culpa hic esse. Voluptas enim vel ea illo. Saepe dolor eos. Unde ipsam et sit sapiente quidem. Et nostrum rerum quisquam adipisci consectetur illum corporis consectetur corporis.",
+      "atHomeCare": false,
+      "primaryPhoto": "",
+      "cost": 435,
+      "recur": "monthly",
+      "featPhoto": "https://source.unsplash.com/category/buildings/640x480",
+      "photos": [
+        "https://source.unsplash.com/category/buildings/640x480",
+        "https://source.unsplash.com/category/buildings/640x480",
+        "https://source.unsplash.com/category/buildings/640x480"
+      ],
+      "typesOfCare": [
+        "inhome",
+        "behavioral"
+      ],
+      "roomTypes": [
+        "studio",
+        "shared"
+      ],
+      "amenities": [
+        "aircon",
+        "library",
+        "laundry"
+      ],
+      "tags": [
+        "incontinence",
+        "wheelchair",
+        "grooming",
+        "dementia"
+      ],
+      "location": "3313 Daisy Trail Nashville TN 37013",
+      "users": [],
+      "residents": [],
+      "views": 0,
+      "stays": 0,
+      "_id": "5fcee336071f9b002383c309",
+      "name": "Rohan - Crist",
+      "testimonials": [],
+      "__v": 0,
+      "created_at": "2020-12-08T02:21:44.566Z",
+      "updated_at": "2020-12-08T02:21:44.566Z"
+    }
+  ],
+  "page": 1,
+  "limit": 10,
+  "total": 150,
+  "pages": 15
+}

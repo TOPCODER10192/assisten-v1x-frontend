@@ -1,0 +1,50 @@
+on:
+  release:
+    types: [created]
+  push:
+    branches:
+      - development
+      # - main
+  
+name: Deploy to Amazon S3 + Cloudfront
+
+jobs:
+  deploy:
+    name: Deploy
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    - name: Setup Variables
+      id: setupVariables
+      run: |
+        BRANCH=$(echo $GITHUB_REF | sed -e 's/.*heads\///')
+        if [ $BRANCH == 'main' ]
+        then
+          echo "::set-output name=deployment::prod"
+          echo "::set-output name=apiHost::api.assisten.com"
+        else
+          echo "::set-output name=deployment::dev"
+          echo "::set-output name=apiHost::api.preview.assisten.com"
+        fi
+
+    - name: Configure AWS credentials
+      uses: aws-actions/configure-aws-credentials@v1
+      with:
+        aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        aws-region: us-west-2
+
+    - name: Copy files to the test website with the AWS CLI
+      run: |
+        npm install
+        npm run export
+        aws s3 sync ./out s3://assisten-frontend-preview
+
+    - name: Deploy to S3, Invalidate CloudFront
+      env:
+        CLOUDFRONT_dev: ${{ secrets.CLOUDFRONT_DISTRIBUTION_ID_DEV }}
+        CLOUDFRONT_prod: ${{ secrets.CLOUDFRONT_DISTRIBUTION_ID_PROD }}
+      run: aws cloudfront create-invalidation --distribution-id $CLOUDFRONT_${{ steps.setupVariables.outputs.deployment }} --paths "/*"

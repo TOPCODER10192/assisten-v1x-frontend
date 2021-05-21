@@ -1,0 +1,156 @@
+.propertyCard {
+  padding-left: 20px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #E6EEF2;
+}
+
+.propertyCard:hover {
+  background-color: #D3E3EC;
+}
+
+.active {
+  background-color: #E6EEF2;
+}
+
+.featPhoto {
+  border-radius: 10px;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.title {
+  font-size: 18px
+}
+
+.name {
+  font-size: 14px
+}
+
+.info {
+  margin-bottom: 14px;
+}
+
+.info h5 {
+  font-size: 12px !important;
+  font-weight: bold;
+  margin-bottom: 4px !important;
+}
+
+.propertyInfo {
+  margin-left: 20px;
+}
+
+.section {
+  max-width: 620px;
+  margin-bottom: 50px;
+}
+
+.sectionTitle {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #555
+}
+
+.testimonials {
+  list-style-type: none;
+  max-width: 620px;
+  padding-left: 0px !important
+}
+
+.testimonials li {
+  margin-bottom: 20px
+}
+
+.care {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #3685B5;
+  width: 160px;
+  height: 160px;
+  color: white;
+  border-radius: 10px;
+  margin-right: 10px
+}
+
+.cares {
+  display: grid;
+  grid-template-columns: 160px 160px 160px;
+  grid-gap: 10px
+}
+
+.amenities {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 4px;
+  padding-left: 10px
+}
+
+.amenities img {
+  display: inline-block;
+  margin: 4px
+}
+
+.amenity {
+  padding: 0px 0px 6px 0px;
+}
+
+.location {
+  width: 630px;
+  height: 300px;
+}
+
+@media (max-width: 760px) {
+  .location {
+    width: 100%;
+  }
+
+  .featPhoto {
+    width: 100%;
+    object-fit: cover;
+    object-position: top center;
+  }
+
+  .propertyCard {
+    padding-left: 10px !important;
+  }
+
+  .propertyInfo {
+    margin-top: 10px !important;
+    margin-left: 0px !important;
+  }
+
+}
+
+@media (max-width: 480px) {
+  .cares {
+    grid-template-columns: auto auto;
+  }
+
+  .amenities {
+    grid-template-columns: auto auto;
+  }
+}
+
+.button {
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 6px;
+  border-width: 0px;
+  background-color: #3685B5;
+}
+
+.formItem {
+  margin-bottom: 10px !important
+}
+
+.contactForm input {
+  padding-left: 10px !important
+}
+
+.contactForm .ant-picker input {
+  padding-left: 0px !important
+}

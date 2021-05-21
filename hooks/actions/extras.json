@@ -1,0 +1,244 @@
+{
+  "careCapables": [
+    {
+      "slug": "mobility-assistance",
+      "_id": "60276d7864330b4a71090921",
+      "name": "Mobility Assistance",
+      "__v": 0
+    },
+    {
+      "slug": "special-diets",
+      "_id": "60276d7864330b4a71090922",
+      "name": "Special Diets",
+      "__v": 0
+    },
+    {
+      "slug": "feeding-assistance",
+      "_id": "60276d7864330b4a71090923",
+      "name": "Feeding Assistance",
+      "__v": 0
+    },
+    {
+      "slug": "grooming-hygeine",
+      "_id": "60276d7864330b4a71090924",
+      "name": "Grooming/Hygeine",
+      "__v": 0
+    },
+    {
+      "slug": "bathing",
+      "_id": "60276d7864330b4a71090925",
+      "name": "Bathing",
+      "__v": 0
+    },
+    {
+      "slug": "dressing",
+      "_id": "60276d7864330b4a71090926",
+      "name": "Dressing",
+      "__v": 0
+    },
+    {
+      "slug": "incontinence-care",
+      "_id": "60276d7864330b4a71090927",
+      "name": "Incontinence Care",
+      "__v": 0
+    },
+    {
+      "slug": "toileting",
+      "_id": "60276d7864330b4a71090928",
+      "name": "Toileting",
+      "__v": 0
+    },
+    {
+      "slug": "dementia-care",
+      "_id": "60276d7864330b4a71090929",
+      "name": "Dementia Care",
+      "__v": 0
+    },
+    {
+      "slug": "medication-management",
+      "_id": "60276d7864330b4a7109092a",
+      "name": "Medication Management",
+      "__v": 0
+    },
+    {
+      "slug": "housekeeping-services",
+      "_id": "60276d7864330b4a7109092b",
+      "name": "Housekeeping Services",
+      "__v": 0
+    },
+    {
+      "slug": "home-health-allowed",
+      "_id": "60276d7864330b4a7109092c",
+      "name": "Home Health Allowed",
+      "__v": 0
+    },
+    {
+      "slug": "hospice-allowed",
+      "_id": "60276d7864330b4a7109092d",
+      "name": "Hospice Allowed",
+      "__v": 0
+    },
+    {
+      "slug": "in-home-physician-visits",
+      "_id": "60276d7864330b4a7109092e",
+      "name": "In-Home Physician Visits",
+      "__v": 0
+    },
+    {
+      "slug": "two-person-transfer",
+      "_id": "60276d7864330b4a7109092f",
+      "name": "Two Person Transfer",
+      "__v": 0
+    },
+    {
+      "slug": "accept-bed-bound",
+      "_id": "60276d7864330b4a71090930",
+      "name": "Accept Bed Bound",
+      "__v": 0
+    },
+    {
+      "slug": "activities",
+      "_id": "60276d7864330b4a71090931",
+      "name": "Activities",
+      "__v": 0
+    }
+  ],
+  "roomTypes": [
+    {
+      "slug": "studio",
+      "photo": "",
+      "_id": "60276d7864330b4a71090932",
+      "name": "Studio",
+      "__v": 0
+    },
+    {
+      "slug": "private",
+      "photo": "",
+      "_id": "60276d7864330b4a71090933",
+      "name": "Private",
+      "__v": 0
+    },
+    {
+      "slug": "shared",
+      "photo": "",
+      "_id": "60276d7864330b4a71090934",
+      "name": "Shared",
+      "__v": 0
+    }
+  ],
+  "careTypes": [
+    {
+      "slug": "independent",
+      "_id": "60276d7864330b4a7109091c",
+      "name": "Independent Living",
+      "__v": 0
+    },
+    {
+      "slug": "assisted",
+      "_id": "60276d7864330b4a7109091d",
+      "name": "Assisted Living",
+      "__v": 0
+    },
+    {
+      "slug": "inhome",
+      "_id": "60276d7864330b4a7109091e",
+      "name": "In-Home Care",
+      "__v": 0
+    },
+    {
+      "slug": "memory",
+      "_id": "60276d7864330b4a7109091f",
+      "name": "Memory Care",
+      "__v": 0
+    },
+    {
+      "slug": "behavioral",
+      "_id": "60276d7864330b4a71090920",
+      "name": "Behavioral Care",
+      "__v": 0
+    }
+  ],
+  "amenities": [
+    {
+      "slug": "wifi",
+      "photo": "",
+      "bg": "",
+      "_id": "60276d7864330b4a71090912",
+      "icon": "",
+      "name": "Wifi",
+      "__v": 0
+    },
+    {
+      "slug": "cabletv",
+      "photo": "",
+      "bg": "",
+      "_id": "60276d7864330b4a71090913",
+      "icon": "",
+      "name": "Cable TV",
+      "__v": 0
+    },
+    {
+      "slug": "laundry",
+      "photo": "",
+      "bg": "",
+      "_id": "60276d7864330b4a71090914",
+      "icon": "",
+      "name": "Laundry",
+      "__v": 0
+    },
+    {
+      "slug": "aircon",
+      "photo": "",
+      "bg": "",
+      "_id": "60276d7864330b4a71090915",
+      "icon": "",
+      "name": "Heating and Air Conditioning",
+      "__v": 0
+    },
+    {
+      "slug": "restaurant",
+      "photo": "",
+      "bg": "",
+      "_id": "60276d7864330b4a71090917",
+      "icon": "",
+      "name": "Restaurant",
+      "__v": 0
+    },
+    {
+      "slug": "fitness-center",
+      "photo": "",
+      "bg": "",
+      "_id": "60276d7864330b4a71090918",
+      "icon": "",
+      "name": "Fitness Center",
+      "__v": 0
+    },
+    {
+      "slug": "pool",
+      "photo": "",
+      "bg": "",
+      "_id": "60276d7864330b4a71090919",
+      "icon": "",
+      "name": "Swimming Pool/Hot Tub",
+      "__v": 0
+    },
+    {
+      "slug": "library",
+      "photo": "",
+      "bg": "",
+      "_id": "60276d7864330b4a7109091a",
+      "icon": "",
+      "name": "Library/Computer Room",
+      "__v": 0
+    },
+    {
+      "slug": "salon",
+      "photo": "",
+      "bg": "",
+      "_id": "60276d7864330b4a7109091b",
+      "icon": "",
+      "name": "Beauty Salon",
+      "__v": 0
+    }
+  ]
+}

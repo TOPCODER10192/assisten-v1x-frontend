@@ -1,0 +1,153 @@
+.container {
+  font-size: 14px;
+  color: #777;
+  margin: 0px auto;
+  max-width: 1024px;
+}
+
+@media (max-width: 720px) {
+  .container {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+}
+
+.container a {
+  font-size: 16px;
+  color: #3685B5;
+}
+
+.featPhoto {
+  background-size: cover;
+  background-position: top center;
+  width: 100%;
+  height: 500px;
+  background-color: rgba(0,0,0,0.9);
+  max-height: 500px;
+  border-radius: 8px;
+}
+
+.heading {
+  font-size: 40px !important;
+  line-height: 44px;
+  margin-bottom: 30px !important;
+}
+
+.name {
+  font-size: 40px !important;
+  line-height: 44px;
+  margin-bottom: 10px !important;
+}
+
+.right {
+  padding-left: 40px
+}
+
+.desc {
+  padding: 20px 0px
+}
+
+.descTitle {
+  font-size: 24px;
+  color: #444;
+}
+
+@media (max-width: 720px) {
+  .container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .right {
+    padding-left: 0px;
+  }
+}
+
+.card {
+  width: 100%;
+  max-width: 360px;
+  border-radius: 6px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+  z-index: 1000
+}
+
+.active {
+  border-radius: 10px;
+  padding: 10px 14px;
+  margin-bottom: 14px;
+  border: 2px dashed orange !important
+}
+
+.agent {
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+  background-position: top right;
+  border-radius: 50px;
+}
+
+.call {
+  padding-left: 20px
+}
+
+.ant-typography {
+  margin-bottom: 0px
+}
+
+.card h3 {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 28px;
+  margin: 0px !important;
+}
+
+.card h2 {
+  font-size: 34px;
+  margin: 0px !important;
+}
+
+.schedTitle {
+  text-align: center;
+}
+
+.button {
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 6px;
+  border-width: 0px;
+  background-color: #3685B5;
+}
+
+.contact .card {
+  background-color: white !important;
+  margin-top: 20px !important;
+  margin-left: 40px !important;
+}
+
+.tour {
+  margin-top: 20px;
+  position: absolute
+}
+
+@media (max-width: 480px) {
+  .contact .card {
+    margin: 0px !important;
+    margin-bottom: 20px !important;
+  }
+
+  .sectionList {
+    margin-top: 0px;
+  }
+
+  .tour {
+    position: relative;
+  }
+}

@@ -1,0 +1,11 @@
+.properties {
+  margin-top: 110px
+}
+
+.map {
+  background-color: orange;
+  position: fixed;
+  top: 110px;
+  height: calc(100vh - 110px);
+  width: 50%
+}

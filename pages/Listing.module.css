@@ -1,0 +1,36 @@
+.questionContent {
+  text-align: center;
+  padding: 50px 0px;
+}
+
+.questionContent h5 {
+  margin-top: 1em;
+}
+
+.properties {
+  margin-top: 100px
+}
+
+.map {
+  background-color: orange;
+  position: fixed;
+  margin-top: 100px;
+  height: calc(100vh - 100px);
+  width: 50%;
+}
+
+@media (max-width: 720px) {
+  .map {
+    position: relative;
+    margin-top: 0px;
+  }
+
+  .properties {
+    margin-top: 60px
+  }
+}
+
+.buttonGroup button {
+  margin-right: 10px !important;
+  margin-bottom: 10px !important;
+}

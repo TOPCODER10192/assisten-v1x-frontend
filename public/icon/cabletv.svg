@@ -1,0 +1,14 @@
+<svg id="assisten_cable" xmlns="http://www.w3.org/2000/svg" width="21.7" height="24.584" viewBox="0 0 21.7 24.584">
+  <path id="Path_111" data-name="Path 111" d="M5,0H16.7a5,5,0,0,1,5,5v6.248a5,5,0,0,1-5,5H5a5,5,0,0,1-5-5V5A5,5,0,0,1,5,0Z" transform="translate(0 5.505)" fill="#4b4b4b"/>
+  <rect id="Rectangle_56" data-name="Rectangle 56" width="14.942" height="11.959" rx="5" transform="translate(1.63 7.651)" fill="#fff"/>
+  <path id="Path_23" data-name="Path 23" d="M74.652,191.274a.6.6,0,1,1-1-.657l2.2-3.324a.6.6,0,1,1,1,.657Z" transform="translate(-70.789 -167.015)" fill="#4b4b4b"/>
+  <path id="Path_24" data-name="Path 24" d="M168.366,191.6a.6.6,0,1,0,1-.657l-2.159-3.274a.6.6,0,1,0-1,.657Z" transform="translate(-150.973 -167.344)" fill="#4b4b4b"/>
+  <ellipse id="Ellipse_3" data-name="Ellipse 3" cx="0.999" cy="0.999" rx="0.999" ry="0.999" transform="translate(18.086 9.108)" fill="#fff"/>
+  <path id="Path_25" data-name="Path 25" d="M135.962,43.458a.368.368,0,0,1-.486.16.358.358,0,0,1-.039-.51l3.474-5.266a.327.327,0,1,1,.532.351Z" transform="translate(-124.359 -37.641)" fill="#4b4b4b"/>
+  <rect id="Rectangle_57" data-name="Rectangle 57" width="0.95" height="0.95" transform="translate(17.713 15.519)" fill="#fcfcfc"/>
+  <rect id="Rectangle_58" data-name="Rectangle 58" width="0.95" height="0.95" transform="translate(19.508 15.519)" fill="#fcfcfc"/>
+  <rect id="Rectangle_59" data-name="Rectangle 59" width="0.95" height="0.95" transform="translate(17.713 17.296)" fill="#fcfcfc"/>
+  <rect id="Rectangle_60" data-name="Rectangle 60" width="0.95" height="0.95" transform="translate(19.508 17.296)" fill="#fcfcfc"/>
+  <ellipse id="Ellipse_4" data-name="Ellipse 4" cx="0.999" cy="0.999" rx="0.999" ry="0.999" transform="translate(18.086 12.129)" fill="#fff"/>
+  <path id="Path_26" data-name="Path 26" d="M119.006,60.017a.327.327,0,1,0,.532-.351l-2.079-3.145a.327.327,0,1,0-.532.351Z" transform="translate(-108.329 -53.823)" fill="#4b4b4b"/>
+</svg>
